@@ -1,0 +1,21 @@
+{
+    "name": "tony7sins/docker-private-package",
+    "description": "An example private composer package",
+    "authors": [
+        {
+            "name": "tony7sins",
+            "email": "tony7sins@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bitpress\\DockerPrivatePackage\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
